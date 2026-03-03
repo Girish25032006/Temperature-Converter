@@ -9,11 +9,23 @@
 <body>
   <div class="main_div">
     
-    <h1 class="title">Converting Celcius to Fahrenheit<h1>
+    <h1 class="title">Temperature Convertor<h1>
   
-    <div>
-      <input type="number" placeholder="Enter The Celcius" class="js-input">
-    </div>
+   <div class="selector">
+      <div>
+        <input type="number" placeholder="Enter The Celcius" class="js-input">
+      </div>
+      <div class="Convertor_name">
+        <select>
+          <option selected value="Celcius to Fahrenheit">Celcius to Fahrenheit</option>
+          <option  value="Fahrenheit to Celcius">Fahrenheit to Celcius</option>
+          <option value="Celcius to Kelvin">Celcius to Kelvin</option>
+          <option value= "Kelvin to Celcius">Kelvin to Celcius</option>
+          <option value="Fahrenheit to Kelvin">Fahrenheit to Kelvin</option>
+          <option value="Kelvin to Fahrenheit">Kelvin to Fahrenheit</option>
+        </select>
+      </div>
+   </div>
     <div class="button-div">
       <button
       onclick="convert(); 
